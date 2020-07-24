@@ -18,7 +18,7 @@ function navigate(selectedPageIndex) {
   console.log(selectedPageIndex);
   state.selectedPageIndex = selectedPageIndex;
   const start = state.itemsPerPage * selectedPageIndex;
-  const end = start + 1 + state.itemsPerPage;
+  const end = start + state.itemsPerPage;
   state.slicedComments = state.comments.slice(start, end);
   console.log(state);
   render();
