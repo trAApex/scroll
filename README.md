@@ -1,0 +1,1 @@
+Lapozó kialakítása egy tetszőlegesen méretű tömbből.
